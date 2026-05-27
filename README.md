@@ -1,171 +1,95 @@
-# ♻️ Projeto: Mapeamento de Pontos de Descarte Sustentável
+# ♻️ Plataforma de Mapeamento de Pontos de Descarte Sustentável
 
-![GitHub repo size](https://img.shields.io/github/repo-size/SEU-USUARIO/SEU-REPOSITORIO)
-![GitHub last commit](https://img.shields.io/github/last-commit/SEU-USUARIO/SEU-REPOSITORIO)
-![GitHub license](https://img.shields.io/github/license/SEU-USUARIO/SEU-REPOSITORIO)
+<div align="center">
 
----
+![GitHub repo size](https://img.shields.io/github/repo-size/SEU-USUARIO/SEU-REPOSITORIO?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/SEU-USUARIO/SEU-REPOSITORIO?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/SEU-USUARIO/SEU-REPOSITORIO?style=for-the-badge)
 
-## 📌 Sobre o Projeto
-
-Este projeto tem como objetivo desenvolver uma plataforma colaborativa para catalogar, analisar e divulgar pontos de coleta e descarte sustentável de materiais recicláveis.
-
-A proposta busca facilitar o acesso da população a informações confiáveis sobre reciclagem, promovendo conscientização ambiental e incentivando práticas sustentáveis.
+</div>
 
 ---
 
-# 👥 Integrantes do Grupo
+## 📖 Sobre o Projeto
 
-- Nome Integrante 1
-- Nome Integrante 2
-- Nome Integrante 3
-- Nome Integrante 4
+A **Plataforma de Mapeamento de Pontos de Descarte Sustentável** foi desenvolvida com o objetivo de organizar, documentar e disponibilizar informações sobre locais de coleta e descarte correto de resíduos recicláveis.
 
----
+O sistema busca promover sustentabilidade e conscientização ambiental, permitindo que cidadãos encontrem pontos de coleta confiáveis e compreendam os procedimentos adequados para descarte de diferentes materiais.
 
-# 🔗 Relação com o Projeto Anterior
-
-O projeto é uma continuação da etapa anterior, onde foram realizadas pesquisas iniciais sobre descarte de resíduos e levantamento de necessidades relacionadas à reciclagem urbana.
-
-Nesta fase, o foco está na modelagem de dados, estruturação das entidades e documentação técnica da solução.
-
----
-
-# ❓ Problema
-
-Muitas pessoas não sabem onde descartar corretamente resíduos recicláveis ou encontram dificuldades para localizar pontos de coleta confiáveis e atualizados.
-
----
-
-# 💡 Pergunta Guia
-
-> Como facilitar o acesso da população a informações sobre descarte sustentável e reciclagem em sua cidade?
+Além disso, o projeto contribui para a centralização de informações relevantes para organizações ambientais, cooperativas e órgãos públicos.
 
 ---
 
 # 🎯 Objetivos
 
-- Criar uma base de dados de pontos de coleta;
-- Informar materiais aceitos;
-- Facilitar o descarte correto;
-- Promover sustentabilidade;
-- Organizar evidências e análises sobre os serviços.
+- Mapear pontos de coleta seletiva;
+- Facilitar o acesso a informações sobre reciclagem;
+- Informar materiais aceitos em cada local;
+- Documentar procedimentos de descarte;
+- Registrar evidências e verificações;
+- Incentivar práticas sustentáveis;
+- Apoiar iniciativas ambientais e educacionais.
 
 ---
 
-# 👤 Usuários Possíveis
+# ❓ Problema
 
-- Cidadãos;
-- Cooperativas;
-- ONGs ambientais;
-- Empresas de reciclagem;
-- Órgãos públicos;
-- Pesquisadores e estudantes.
+Grande parte da população possui dificuldade em localizar pontos de descarte confiáveis e atualizados, o que contribui para o descarte inadequado de resíduos e impactos ambientais negativos.
 
 ---
 
-# ⚙️ Funcionalidades
+# 💡 Pergunta Norteadora
 
-✅ Cadastro de pontos de coleta  
-✅ Consulta por cidade ou bairro  
-✅ Materiais aceitos  
-✅ Informações sobre descarte  
-✅ Evidências e verificações  
-✅ Integração com mapas  
-✅ Análises críticas  
-✅ Atualização colaborativa  
+> Como a tecnologia pode facilitar o acesso da população a informações sobre descarte sustentável e reciclagem urbana?
+
+---
+
+# 👥 Equipe
+
+| Nome | Função |
+|---|---|
+| Integrante 1 | Desenvolvimento |
+| Integrante 2 | Banco de Dados |
+| Integrante 3 | Pesquisa |
+| Integrante 4 | Documentação |
+
+---
+
+# ⚙️ Funcionalidades do Sistema
+
+- ✅ Cadastro de pontos de coleta;
+- ✅ Consulta por cidade e bairro;
+- ✅ Registro de materiais aceitos;
+- ✅ Informações sobre horários e modalidades;
+- ✅ Integração com links de localização;
+- ✅ Armazenamento de evidências;
+- ✅ Análises críticas e observações;
+- ✅ Estrutura preparada para expansão futura.
 
 ---
 
 # 🛠️ Tecnologias Utilizadas
 
-| Tecnologia | Função |
+| Tecnologia | Finalidade |
 |---|---|
-| Supabase | Banco de dados |
-| GitHub | Versionamento |
-| Markdown | Documentação |
-| Google Sheets | Coleta inicial |
-| Figma | Protótipos |
+| **Supabase** | Banco de dados e backend |
+| **GitHub** | Versionamento e hospedagem |
+| **Markdown** | Documentação técnica |
+| **Google Sheets** | Organização inicial de dados |
+| **Figma** | Protótipos e interface |
 
 ---
 
-# 🗂️ Modelo de Dados
-
-## 📍 Tabela: `pontos_coleta`
-
-| Campo | Tipo |
-|---|---|
-| id | integer |
-| nome | text |
-| endereço | text |
-| bairro | text |
-| cidade | text |
-| contato | text |
-| link_maps | text |
-| observação | text |
-
----
-
-## ♻️ Tabela: `materiais_aceitos`
-
-| Campo | Tipo |
-|---|---|
-| id_material | integer |
-| id_ponto | integer |
-| tipo_material | text |
-| aceita | boolean |
-| observação | text |
-
----
-
-## 🧾 Tabela: `procedimentos_descarte`
-
-| Campo | Tipo |
-|---|---|
-| id | integer |
-| id_ponto | integer |
-| horário | text |
-| agendamento | boolean |
-| custo | boolean |
-| modalidade | text |
-| descrição | text |
-
----
-
-## 📷 Tabela: `evidencias`
-
-| Campo | Tipo |
-|---|---|
-| id | integer |
-| id_ponto | integer |
-| tipo | text |
-| descrição | text |
-| arquivo_link | text |
-| data_verificação | date |
-
----
-
-## 📝 Tabela: `analises_criticas`
-
-| Campo | Tipo |
-|---|---|
-| id | integer |
-| cidade | text |
-| facilidade | text |
-| dificuldades | text |
-| divulgação | text |
-| melhorias | text |
-
----
-
-# 📂 Estrutura do Projeto
+# 🗂️ Estrutura do Projeto
 
 ```bash
-📦 projeto-reciclagem
+📦 projeto-descarte-sustentavel
  ┣ 📂 docs
  ┃ ┗ 📄 modelo-dados.md
  ┣ 📂 database
  ┃ ┗ 📄 schema.sql
+ ┣ 📂 assets
  ┣ 📄 README.md
  ┣ 📄 .gitignore
  ┗ 📄 LICENSE
+
