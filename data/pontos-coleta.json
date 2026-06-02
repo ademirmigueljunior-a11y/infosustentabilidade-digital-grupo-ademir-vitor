@@ -1,0 +1,110 @@
+{
+  "projeto": "InfoSustentabilidade Digital",
+  "cidade_base": "Rio do Sul",
+  "pontos_coleta": [
+    {
+      "id_ponto": 1,
+      "nome_local": "Click Informática",
+      "endereco": "Avenida Gilberto Comandolli",
+      "bairro": "Centro",
+      "cidade": "Vidal Ramos",
+      "contato": "(47) 3356-1629",
+      "materiais_aceitos": [
+        "Monitores",
+        "CPU",
+        "Impressoras",
+        "TV",
+        "Celular"
+      ],
+      "procedimento": {
+        "precisa_agendamento": false,
+        "possui_custo": false,
+        "modalidade": "Entrega no Local"
+      },
+      "evidencias": [
+        {
+          "tipo": "Localização",
+          "arquivo": "evidencias/ponto-1-localizacao.png"
+        },
+        {
+          "tipo": "Prints",
+          "arquivo": "evidencias/ponto-1-prints.png"
+        }
+      ]
+    },
+    {
+      "id_ponto": 2,
+      "nome_local": "Prefeitura Municipal de Salete",
+      "endereco": "Rua XV de Novembro, Centro",
+      "bairro": "Centro",
+      "cidade": "Salete",
+      "contato": "(47) 3563-0266",
+      "materiais_aceitos": [
+        "Lâmpadas",
+        "Pilhas",
+        "Baterias",
+        "Eletrônicos"
+      ],
+      "procedimento": {
+        "precisa_agendamento": false,
+        "possui_custo": false,
+        "modalidade": "Entrega no Local"
+      },
+      "evidencias": [
+        {
+          "tipo": "Foto",
+          "arquivo": "evidencias/ponto-2-foto.png"
+        }
+      ]
+    },
+    {
+      "id_ponto": 3,
+      "nome_local": "Secretaria de Meio Ambiente de Ituporanga",
+      "endereco": "R. Joaquim Boeing, 40",
+      "bairro": "Centro",
+      "cidade": "Ituporanga",
+      "contato": "(47) 3533-1211",
+      "materiais_aceitos": [
+        "Pilhas",
+        "Baterias",
+        "Eletrônicos"
+      ],
+      "procedimento": {
+        "precisa_agendamento": false,
+        "possui_custo": false,
+        "modalidade": "Entrega no Local"
+      },
+      "evidencias": [
+        {
+          "tipo": "Foto",
+          "arquivo": "evidencias/ponto-3-foto.png"
+        }
+      ]
+    },
+    {
+      "id_ponto": 4,
+      "nome_local": "Prefeitura Municipal de Santa Terezinha",
+      "endereco": "Avenida Bruno Pieczarka, 154",
+      "bairro": "Centro",
+      "cidade": "Santa Terezinha",
+      "contato": "(47) 3556-0044",
+      "materiais_aceitos": [
+        "Pilhas",
+        "Baterias",
+        "Eletrônicos"
+      ],
+      "procedimento": {
+        "precisa_agendamento": false,
+        "possui_custo": false,
+        "modalidade": "Entrega no Local"
+      },
+      "evidencias": [
+        {
+          "tipo": "Foto",
+          "arquivo": "evidencias/ponto-4-foto.png"
+        }
+      ]
+    }
+  ]
+}
+
