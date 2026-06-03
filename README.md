@@ -52,10 +52,10 @@ Muitas pessoas possuem dificuldade em localizar pontos de descarte confiáveis e
 
 | Nome | Função |
 |---|---|
-| Integrante 1 | Desenvolvimento |
-| Integrante 2 | Banco de Dados |
-| Integrante 3 | Pesquisa |
-| Integrante 4 | Documentação |
+| ADEMIR | Desenvolvimento |
+| GABRIEL | Banco de Dados |
+| VITOR | Pesquisa |
+| MURILO | Documentação |
 
 ---
 
