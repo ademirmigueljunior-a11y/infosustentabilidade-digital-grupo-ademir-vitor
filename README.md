@@ -53,7 +53,7 @@ Muitas pessoas possuem dificuldade em localizar pontos de descarte confiáveis e
 | Nome | Função |
 |---|---|
 | ADEMIR | Desenvolvimento |
-| GABRIEL | Banco de Dados |
+| GABRIEL F | Banco de Dados |
 | VITOR | Pesquisa |
 | MURILO | Documentação |
 
